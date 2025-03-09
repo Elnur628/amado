@@ -1,0 +1,151 @@
+.mainCheckOut {
+  margin-left: 100px;
+  display: flex;
+  gap: 30px;
+  .checkOut {
+    width: 720px;
+    margin-top: 21%;
+    h2 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 30px;
+      color: #242424;
+      margin-bottom: 30px;
+    }
+    .checkOutForm {
+      width: 100%;
+      .name,
+      .zipCode {
+        display: flex;
+        gap: 30px;
+        padding-bottom: 20px;
+        input {
+          width: 345px;
+          height: 60px;
+          gap: 50px;
+          background-color: #f5f7fa;
+          display: flex;
+          font-size: 14px;
+          color: #6b6b6b;
+          padding: 30px;
+          font-weight: 500;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+      }
+      .place,
+      .email,
+      .address,
+      .town {
+        padding-bottom: 20px;
+        input {
+          width: 720px;
+          height: 60px;
+          background-color: #f5f7fa;
+          padding: 30px;
+          font-size: 14px;
+          color: #6b6b6b;
+          line-height: 1.5;
+          font-weight: 500;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+      }
+      .countries{
+        padding-bottom: 20px;
+        select{
+          width: 720px;
+          height: 60px;
+          background-color: #f5f7fa;
+          padding: 0 30px;
+          font-size: 14px;
+          color: #6b6b6b;
+          line-height: 1.5;
+          font-weight: 500;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        width: 720px;
+      }
+      .textArea {
+        textarea {
+          width: 720px;
+          height: 240px;
+          background-color: #f5f7fa;
+          padding: 30px;
+          font-size: 14px;
+          color: #6b6b6b;
+          line-height: 1.5;
+          font-weight: 500;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+      }
+      .checkBox {
+        div {
+          display: flex;
+          padding-top: 8px;
+          color: #6b6b6b;
+          font-size: 14px;
+          font-weight: 500;
+          font-family: Arial, Helvetica, sans-serif;
+          input {
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+  }
+
+  .cartTotal {
+    margin-top: 295px;
+    width: 345px;
+    height: 470px;
+    background-color: #f5f7fa;
+    h5 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+      color: #242424;
+    }
+    .rowTotal {
+      padding: 30px 20px;
+      .info {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #6b6b6c;
+        font-size: 14px;
+        height: 550;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30px;
+      }
+      .totalBox {
+        padding-top: 30px;
+        width: 100%;
+        .tot {
+          display: flex;
+          color: #6b6b6b;
+          font-family: Arial, Helvetica, sans-serif;
+          input {
+            margin-right: 5px;
+          }
+        }
+      }
+      .checkoutButton{
+        button{
+          width: 305px;
+        height: 50px;
+        margin-top: 100px;
+        background-color: #FBB710;
+        &:hover{
+          background-color: #242424;
+        }
+        a{
+          color: white;
+          font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        
+        }
+
+        }
+        
+      }
+    }
+  }
+}

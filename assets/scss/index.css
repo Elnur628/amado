@@ -1,0 +1,901 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  border: none;
+}
+
+.mainWrapper .header {
+  width: 20%;
+  padding-left: 75px;
+}
+.mainWrapper .header .logo {
+  margin-top: 60px;
+  margin-bottom: 110px;
+}
+.mainWrapper .header .navPages .navBar .navList .navItem {
+  margin-top: 35px;
+}
+.mainWrapper .header .navPages .navBar .navList .navItem :hover {
+  color: #fbb710;
+}
+.mainWrapper .header .navPages .navBar .navList .navItem a {
+  text-transform: uppercase;
+  color: black;
+  font-size: 14px;
+  font-weight: 530;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.mainWrapper .header .buttons .discount {
+  width: 160px;
+  height: 53px;
+  background-color: #ffc107;
+  margin-top: 40px;
+}
+.mainWrapper .header .buttons .discount:hover {
+  color: white;
+  background-color: #000;
+}
+.mainWrapper .header .buttons .discount a {
+  color: #fff;
+  font-size: 20px;
+}
+.mainWrapper .header .buttons .week {
+  margin-top: 15px;
+  width: 160px;
+  height: 53px;
+  background-color: #000;
+}
+.mainWrapper .header .buttons .week a {
+  color: #fff;
+  font-size: 18px;
+}
+.mainWrapper .header .icons {
+  margin-top: 100px;
+}
+.mainWrapper .header .icons .iconItems {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+.mainWrapper .header .icons .iconItems :hover {
+  color: #fbb710;
+}
+.mainWrapper .header .icons .iconItems a {
+  color: black;
+  display: flex;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.mainWrapper .header .icons .iconItems a .cartAmount {
+  color: #9e9e9e;
+}
+.mainWrapper .header .headerSocialBar .headerSocialList {
+  height: 350px;
+  display: flex;
+  gap: 30px;
+  padding-top: 100px;
+  margin-bottom: 50px;
+}
+.mainWrapper .header .headerSocialBar .headerSocialList .headerSocialItems :hover {
+  color: #fbb710;
+}
+.mainWrapper .header .headerSocialBar .headerSocialList .headerSocialItems a {
+  color: #9e9e9e;
+  font-size: 18px;
+}
+
+.footer {
+  background-color: #252525;
+}
+.footer .subscribe .containerSubscribe .rowSubscribe {
+  padding-left: 13%;
+  padding-right: 15%;
+  padding-top: 90px;
+  background-color: #3c3c3c;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.footer .subscribe .containerSubscribe .rowSubscribe .subscribeInfo {
+  width: 60%;
+  height: 220px;
+  line-height: 80px;
+  color: #fff;
+}
+.footer .subscribe .containerSubscribe .rowSubscribe .subscribeInfo h2 {
+  font-size: 36px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+.footer .subscribe .containerSubscribe .rowSubscribe .subscribeInfo h2 span {
+  color: #fbb710;
+}
+.footer .subscribe .containerSubscribe .rowSubscribe .subscribeInfo p {
+  color: #b3b1b1;
+  font-size: 16px;
+  line-height: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer .subscribe .containerSubscribe .rowSubscribe .subscribeMail {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5%;
+}
+.footer .subscribe .containerSubscribe .rowSubscribe .subscribeMail .subscribeForm {
+  display: flex;
+}
+.footer .subscribe .containerSubscribe .rowSubscribe .subscribeMail .subscribeForm .email {
+  width: 320px;
+  height: 50px;
+  font-style: italic;
+  padding-left: 30px;
+  color: #afafaf;
+  font-weight: 550;
+  font-size: 14px;
+}
+.footer .subscribe .containerSubscribe .rowSubscribe .subscribeMail .subscribeForm .subscribeButton {
+  width: 135px;
+  height: 50px;
+  background-color: #fbb710;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0 30px;
+}
+.footer .container {
+  padding-left: 13%;
+  padding-top: 5%;
+  padding-bottom: 12%;
+  width: 100%;
+  height: 250px;
+  display: flex;
+}
+.footer .container .footerLogo {
+  width: 30%;
+}
+.footer .container .footerLogo p {
+  color: rgba(255, 255, 255, 0.4);
+  font-family: Arial, Helvetica, sans-serif;
+  width: 330px;
+  font-size: 11px;
+  margin-top: 10px;
+  line-height: 20px;
+  font-weight: 550;
+}
+.footer .container .footerLogo p a {
+  color: rgba(255, 255, 255, 0.4);
+  font-weight: 550;
+}
+.footer .container .footerPages {
+  width: 90%;
+  padding-top: 50px;
+}
+.footer .container .footerPages .navBarFooter .navListFooter {
+  display: flex;
+  gap: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer .container .footerPages .navBarFooter .navListFooter .navItemFooter :hover {
+  color: #FBB710;
+}
+.footer .container .footerPages .navBarFooter .navListFooter .navItemFooter a {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+.footer .container .footerPages .navBarFooter .navListFooter .navItemFooter a span {
+  color: #FBB710;
+}
+
+.mainWrapper {
+  width: 100%;
+  display: flex;
+  gap: 50px;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.gridContainer .grid {
+  height: 1250px;
+  width: 100%;
+}
+.gridContainer .leftContainer {
+  display: grid;
+  grid-template-rows: 3.7fr 3.7fr 4.6fr;
+}
+.gridContainer .middleContainer {
+  display: grid;
+  grid-template-rows: 5fr 3.5fr 3.5fr;
+}
+.gridContainer .rightContainer {
+  display: grid;
+  grid-template-rows: 3.1fr 3.1fr 4.8fr;
+}
+.gridContainer .gridItem {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #333;
+}
+.gridContainer .gridItem img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.gridContainer .gridItem .productInfo {
+  position: absolute;
+  bottom: 70%;
+  left: 10px;
+  padding: 10px;
+  color: #242424;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.gridContainer .gridItem .productInfo .price {
+  color: #6d6d6d;
+  font-size: 16px;
+}
+.gridContainer .gridItem .productInfo .yellowLine {
+  width: 45px;
+  height: 2px;
+  background: #fbb710;
+  margin-bottom: 5px;
+}
+
+.main .left {
+  background-color: #f5f7fa;
+  height: 100%;
+  width: 230px;
+  padding: 100px 40px;
+  margin-left: 10px;
+}
+.main .left .categories .categoriesTitle {
+  margin: 0px 0px 30px;
+  width: 150px;
+  height: 21px;
+}
+.main .left .categories .categoriesTitle h2 {
+  color: #242424;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main .left .categories .categoriesList .categoriesItem {
+  width: 150px;
+  height: 54px;
+  padding: 15px 0px 15px 20px;
+}
+.main .left .categories .categoriesList .categoriesItem a {
+  color: #959595;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main .left .choose .chooseTitle {
+  padding-top: 50px;
+}
+.main .left .choose .chooseTitle h2 {
+  color: #242424;
+  margin: 0px 0px 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  width: 150px;
+  height: 20px;
+}
+.main .left .choose .chooseList .chooseItem {
+  width: 150px;
+  height: 30px;
+  margin-bottom: 24px;
+  gap: 5px;
+  display: flex;
+  align-items: center;
+}
+.main .left .choose .chooseList .chooseItem input {
+  width: 13px;
+  height: 13px;
+}
+.main .left .choose .chooseList .chooseItem p {
+  color: #959595;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main .left .colors .colorTitle h2 {
+  color: #242424;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  width: 150px;
+  height: 20px;
+}
+.main .left .colors .colorListOne, .main .left .colors .colorListTwo {
+  display: flex;
+  gap: 5px;
+  padding-bottom: 5px;
+}
+.main .left .colors .colorListOne .colorItem, .main .left .colors .colorListTwo .colorItem {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border: 1px solid;
+  border: none;
+}
+.main .left .colors .colorListOne .white, .main .left .colors .colorListTwo .white {
+  background-color: white;
+}
+.main .left .colors .colorListOne .gri, .main .left .colors .colorListTwo .gri {
+  background-color: #969696;
+}
+.main .left .colors .colorListOne .black, .main .left .colors .colorListTwo .black {
+  background-color: #030303;
+}
+.main .left .colors .colorListOne .blue, .main .left .colors .colorListTwo .blue {
+  background-color: #0315FF;
+}
+.main .left .colors .colorListOne .red, .main .left .colors .colorListTwo .red {
+  background-color: #DC0647;
+}
+.main .left .colors .colorListOne .yellow, .main .left .colors .colorListTwo .yellow {
+  background-color: #FFF56A;
+}
+.main .left .colors .colorListOne .orange, .main .left .colors .colorListTwo .orange {
+  background-color: #F26E51;
+}
+.main .left .colors .colorListOne .brown, .main .left .colors .colorListTwo .brown {
+  background-color: #9A8777;
+}
+.main .left .price .priceRange .priceTitle {
+  color: #242424;
+  margin: 0px 0px 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  width: 150px;
+  height: 20px;
+}
+.main .left .price .priceRange .priceTitle h2 {
+  margin-top: 60px;
+}
+.main .left .price .priceRange input {
+  -webkit-appearance: none;
+  width: 150px;
+  height: 2px;
+  background-color: #FBB710;
+  border: 2px solid #FBB710;
+  margin-bottom: 20px;
+}
+.main .left .price .priceRange span {
+  color: #959595;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.shopCards {
+  margin-top: 100px;
+  margin-left: 20px;
+  margin-right: 80px;
+  width: 100%;
+}
+.shopCards .cardsTitle .cardName h5 {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #242424;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.shopCards .cardsInfo .cardTop {
+  display: flex;
+  justify-content: space-between;
+}
+.shopCards .cardsInfo .cardTop .cardTopLeft {
+  display: flex;
+}
+.shopCards .cardsInfo .cardTop .cardTopLeft .one {
+  background-color: #FBB710;
+  width: 40px;
+  height: 40px;
+}
+.shopCards .cardsInfo .cardTop .cardTopLeft .one i {
+  color: white;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.shopCards .cardsInfo .cardTop .cardTopLeft .two {
+  background-color: black;
+  width: 40px;
+  height: 40px;
+}
+.shopCards .cardsInfo .cardTop .cardTopLeft .two i {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.shopCards .cardsInfo .cardTop .cardTopRight {
+  display: flex;
+  gap: 40px;
+}
+.shopCards .cardsInfo .cardTop .cardTopRight .date {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #f5f7fa;
+  width: 162px;
+  height: 40px;
+  padding: 10px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #959595;
+}
+.shopCards .cardsInfo .cardTop .cardTopRight .view {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  background-color: #f5f7fa;
+  width: 146px;
+  height: 40px;
+  padding: 20px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #959595;
+}
+.shopCards .cardsInfo .cardPhotos {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 100px;
+}
+.shopCards .cardsInfo .cardPhotos .cardPhoto {
+  margin-top: 50px;
+  width: 400px;
+}
+.shopCards .cardsInfo .cardPhotos .cardPhoto .photo {
+  margin-right: 10px;
+}
+.shopCards .cardsInfo .cardPhotos .cardPhoto .photo img {
+  width: 400px;
+  height: 517px;
+}
+.shopCards .cardsInfo .cardPhotos .photoInfoOne {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.shopCards .cardsInfo .cardPhotos .photoInfoOne .imgPrice .cardLine {
+  width: 80px;
+  height: 3px;
+  background-color: #FBB710;
+  margin-bottom: 10px;
+}
+.shopCards .cardsInfo .cardPhotos .photoInfoOne .imgPrice .cardPrice span {
+  color: #FBB710;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.shopCards .cardsInfo .cardPhotos .photoInfoOne .stars {
+  display: flex;
+  align-items: center;
+  font-size: 9px;
+  color: #FBB710;
+  gap: 5px;
+}
+.shopCards .cardsInfo .cardPhotos .photoInfoTwo {
+  display: flex;
+  justify-content: space-between;
+}
+.shopCards .cardsInfo .cardPhotos .photoInfoTwo a {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #242424;
+}
+.shopCards .cardsInfo .cardPhotos .photoInfoTwo i {
+  color: #959595;
+}
+.shopCards .shopPages {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 100px;
+}
+.shopCards .shopPages .shopPage {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.shopCards .shopPages .shopPage a {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.shopCards .shopPages .one {
+  background-color: #FBB710;
+}
+.shopCards .shopPages .one a {
+  color: white;
+}
+
+.product {
+  width: 100%;
+  margin-top: 150px;
+  margin-left: 50px;
+}
+.product .productPages {
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+.product .productPages a {
+  font-size: 14px;
+  color: black;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 550;
+}
+.product .productPages a span {
+  color: #212529;
+}
+.product .productPages .modernChair {
+  color: #6c657d;
+}
+.product .productRow {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+}
+.product .productRow .productSlide img {
+  width: 626px;
+  height: 646px;
+}
+.product .productRow .productSlide .productSlidePhotos {
+  display: flex;
+  gap: 10px;
+}
+.product .productRow .productSlide .productSlidePhotos .slidePhotos img {
+  width: 150px;
+  height: 137px;
+}
+.product .productRow .productRight {
+  width: 35%;
+  padding-top: 15px;
+}
+.product .productRow .productRight .productPrice .line {
+  width: 80px;
+  height: 3px;
+  background-color: #fbb710;
+  margin-bottom: 10px;
+}
+.product .productRow .productRight .productPrice span {
+  color: #fbb710;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.product .productRow .productRight .productPrice h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.product .productRow .productRight .productPrice h2 a {
+  color: #242424;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+.product .productRow .productRight .productRating {
+  display: flex;
+  justify-content: space-between;
+}
+.product .productRow .productRight .productRating .stars i {
+  font-size: 9px;
+  color: #fbb710;
+  padding-bottom: 20px;
+}
+.product .productRow .productRight .productRating .stars p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+.product .productRow .productRight .productRating .writeReview p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+.product .productRow .productRight .productInfo {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #6b6b6b;
+  line-height: 35px;
+  margin-top: 50px;
+}
+.product .productRow .productRight .productQty .quanityButton {
+  margin-top: 50px;
+  width: 156px;
+  height: 40px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.product .productRow .productRight .productQty .quanityButton span {
+  font-size: 16px;
+  padding: 0 15px;
+  color: #6c657d;
+}
+.product .productRow .productRight .productQty .quanityButton input {
+  width: 50px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background-color: #f0f0f0;
+}
+.product .productRow .productRight .productButton button {
+  width: 305px;
+  height: 80px;
+  margin-top: 50px;
+  background-color: #FBB710;
+}
+.product .productRow .productRight .productButton button:hover {
+  background-color: #242424;
+}
+.product .productRow .productRight .productButton button a {
+  color: white;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+.cartMain {
+  width: 100%;
+  margin-left: 100px;
+  display: flex;
+}
+.cartMain .cartTable {
+  margin-top: 150px;
+  margin-right: 30px;
+}
+.cartMain .cartTable h2 {
+  font-size: 30px;
+  font-weight: 550;
+  margin-bottom: 35px;
+  color: #242424;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.cartMain .cartTable table {
+  border-collapse: collapse;
+}
+.cartMain .cartTable table .cartTableBar .cartTableList {
+  background-color: #f5f7fa;
+}
+.cartMain .cartTable table .cartTableBar .cartTableList th {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 180px;
+  height: 30px;
+  padding: 12px;
+  text-align: inherit;
+}
+.cartMain .cartTable table .cartTableAbout .cartTableInfo .productImg img {
+  width: 180px;
+  height: 180px;
+  padding: 12px;
+}
+.cartMain .cartTable table .cartTableAbout .cartTableInfo .productName {
+  color: #252525;
+  font-size: 18px;
+  padding: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.cartMain .cartTable table .cartTableAbout .cartTableInfo .productPrice {
+  color: #252525;
+  font-size: 16px;
+  padding: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.cartMain .cartTable table .cartTableAbout .cartTableInfo .productQuanity .quanityButton {
+  margin-left: 20px;
+  width: 120px;
+  height: 40px;
+  padding: 12px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 550;
+  color: #252525;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+.cartMain .cartTotal {
+  margin-top: 220px;
+  width: 345px;
+  height: 380px;
+  background-color: #f5f7fa;
+}
+.cartMain .cartTotal h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #242424;
+}
+.cartMain .cartTotal .rowTotal {
+  padding: 30px 20px;
+}
+.cartMain .cartTotal .rowTotal .info {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #6b6b6c;
+  font-size: 14px;
+  height: 550;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.cartMain .cartTotal .rowTotal .checkoutButton button {
+  width: 305px;
+  height: 50px;
+  margin-top: 110px;
+  background-color: #fbb710;
+}
+.cartMain .cartTotal .rowTotal .checkoutButton button:hover {
+  background-color: #242424;
+}
+.cartMain .cartTotal .rowTotal .checkoutButton button a {
+  color: white;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+.mainCheckOut {
+  margin-left: 100px;
+  display: flex;
+  gap: 30px;
+}
+.mainCheckOut .checkOut {
+  width: 720px;
+  margin-top: 21%;
+}
+.mainCheckOut .checkOut h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: #242424;
+  margin-bottom: 30px;
+}
+.mainCheckOut .checkOut .checkOutForm {
+  width: 100%;
+}
+.mainCheckOut .checkOut .checkOutForm .name,
+.mainCheckOut .checkOut .checkOutForm .zipCode {
+  display: flex;
+  gap: 30px;
+  padding-bottom: 20px;
+}
+.mainCheckOut .checkOut .checkOutForm .name input,
+.mainCheckOut .checkOut .checkOutForm .zipCode input {
+  width: 345px;
+  height: 60px;
+  gap: 50px;
+  background-color: #f5f7fa;
+  display: flex;
+  font-size: 14px;
+  color: #6b6b6b;
+  padding: 30px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.mainCheckOut .checkOut .checkOutForm .place,
+.mainCheckOut .checkOut .checkOutForm .email,
+.mainCheckOut .checkOut .checkOutForm .address,
+.mainCheckOut .checkOut .checkOutForm .town {
+  padding-bottom: 20px;
+}
+.mainCheckOut .checkOut .checkOutForm .place input,
+.mainCheckOut .checkOut .checkOutForm .email input,
+.mainCheckOut .checkOut .checkOutForm .address input,
+.mainCheckOut .checkOut .checkOutForm .town input {
+  width: 720px;
+  height: 60px;
+  background-color: #f5f7fa;
+  padding: 30px;
+  font-size: 14px;
+  color: #6b6b6b;
+  line-height: 1.5;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.mainCheckOut .checkOut .checkOutForm .countries {
+  padding-bottom: 20px;
+  width: 720px;
+}
+.mainCheckOut .checkOut .checkOutForm .countries select {
+  width: 720px;
+  height: 60px;
+  background-color: #f5f7fa;
+  padding: 0 30px;
+  font-size: 14px;
+  color: #6b6b6b;
+  line-height: 1.5;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.mainCheckOut .checkOut .checkOutForm .textArea textarea {
+  width: 720px;
+  height: 240px;
+  background-color: #f5f7fa;
+  padding: 30px;
+  font-size: 14px;
+  color: #6b6b6b;
+  line-height: 1.5;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.mainCheckOut .checkOut .checkOutForm .checkBox div {
+  display: flex;
+  padding-top: 8px;
+  color: #6b6b6b;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.mainCheckOut .checkOut .checkOutForm .checkBox div input {
+  margin-right: 5px;
+}
+.mainCheckOut .cartTotal {
+  margin-top: 295px;
+  width: 345px;
+  height: 470px;
+  background-color: #f5f7fa;
+}
+.mainCheckOut .cartTotal h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #242424;
+}
+.mainCheckOut .cartTotal .rowTotal {
+  padding: 30px 20px;
+}
+.mainCheckOut .cartTotal .rowTotal .info {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #6b6b6c;
+  font-size: 14px;
+  height: 550;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.mainCheckOut .cartTotal .rowTotal .totalBox {
+  padding-top: 30px;
+  width: 100%;
+}
+.mainCheckOut .cartTotal .rowTotal .totalBox .tot {
+  display: flex;
+  color: #6b6b6b;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.mainCheckOut .cartTotal .rowTotal .totalBox .tot input {
+  margin-right: 5px;
+}
+.mainCheckOut .cartTotal .rowTotal .checkoutButton button {
+  width: 305px;
+  height: 50px;
+  margin-top: 100px;
+  background-color: #FBB710;
+}
+.mainCheckOut .cartTotal .rowTotal .checkoutButton button:hover {
+  background-color: #242424;
+}
+.mainCheckOut .cartTotal .rowTotal .checkoutButton button a {
+  color: white;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}/*# sourceMappingURL=index.css.map */

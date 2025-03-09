@@ -1,0 +1,306 @@
+.main {
+  .left {
+    background-color: #f5f7fa;
+    height: 100%;
+    width: 230px;
+    padding: 100px 40px;
+    margin-left: 10px;
+    .categories {
+      .categoriesTitle {
+        h2 {
+          color: #242424;
+          font-size: 16px;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        margin: 0px 0px 30px;
+        width: 150px;
+        height: 21px;
+      }
+      .categoriesList {
+        .categoriesItem {
+          width: 150px;
+          height: 54px;
+          padding: 15px 0px 15px 20px;
+          a {
+            color: #959595;
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+          }
+        }
+      }
+    }
+    .choose {
+      .chooseTitle {
+        padding-top: 50px;
+        h2 {
+          color: #242424;
+          margin: 0px 0px 30px;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 16px;
+          width: 150px;
+          height: 20px;
+        }
+      }
+      .chooseList {
+        .chooseItem {
+          width: 150px;
+          height: 30px;
+
+          margin-bottom: 24px;
+          gap: 5px;
+          display: flex;
+          align-items: center;
+          input {
+            width: 13px;
+            height: 13px;
+          }
+          p {
+            color: #959595;
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+          }
+        }
+      }
+    }
+    .colors {
+      .colorTitle {
+        h2 {
+          color: #242424;
+          margin-top: 50px;
+          margin-bottom: 25px;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 16px;
+          width: 150px;
+          height: 20px;
+          
+        }
+      }
+      .colorListOne, .colorListTwo{
+        display: flex;
+        gap: 5px;
+        padding-bottom: 5px;
+        .colorItem{
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            border: 1px solid; 
+            border: none;           
+        }
+        .white{
+            background-color: white;
+        }
+        .gri{
+            background-color: #969696;
+        }
+        .black{
+            background-color: #030303;
+        }
+        .blue{
+            background-color: #0315FF;
+        }
+        .red{
+            background-color: #DC0647;
+        }
+        .yellow{
+            background-color: #FFF56A;
+        }
+        .orange{
+            background-color: #F26E51;
+        }
+        .brown{
+            background-color: #9A8777;
+        }
+      }
+    }
+    .price {
+      .priceRange {
+        .priceTitle {
+            h2{
+                margin-top: 60px;
+            }
+          color: #242424;
+          margin: 0px 0px 30px;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 12px;
+          width: 150px;
+          height: 20px;
+        }
+        input{
+            -webkit-appearance: none;
+            width: 150px;
+            height: 2px;
+            background-color: #FBB710;
+            border: 2px solid #FBB710;
+            margin-bottom: 20px;
+        }
+        span{
+            color: #959595;
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+      }
+    }
+  }
+}
+
+.shopCards{
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 80px;
+    width: 100%;
+    .cardsTitle{
+        .cardName{
+            h5{
+                font-size: 16px;
+                text-transform: uppercase;
+                margin-bottom: 20px;
+                color: #242424;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        }
+    }
+    .cardsInfo{
+        
+        .cardTop{
+            display: flex;
+        justify-content: space-between;
+        .cardTopLeft{
+            display: flex;
+            .one{
+                background-color: #FBB710;
+                width: 40px;
+                height: 40px;
+                i{
+                    color: white;
+                    font-size: 16px; 
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 10px;
+                }
+            }
+            .two{
+                background-color: black;
+                width: 40px;
+                height: 40px;
+                i{
+                    color: white;
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 10px;
+                }
+            }
+        }
+        .cardTopRight{
+            display: flex;
+            gap: 40px;
+            .date{
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                background-color: #f5f7fa;
+                width: 162px;
+                height: 40px;
+                padding: 10px;
+                font-size: 14px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: #959595;
+            }
+            .view{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 20px;
+                background-color: #f5f7fa;
+                width: 146px;
+                height: 40px;
+                padding: 20px;
+                font-size: 14px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: #959595;                
+            }
+        }
+        }
+        .cardPhotos{
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-bottom: 100px;
+            .cardPhoto{
+                margin-top: 50px;
+                width: 400px;
+                .photo{
+                    margin-right: 10px;
+                    img{
+                        width: 400px;
+                        height: 517px;
+                    }
+                }
+            }
+            .photoInfoOne{
+                margin-top: 20px;
+                display: flex;
+                justify-content: space-between;
+                .imgPrice{
+                    .cardLine{
+                        width: 80px;
+                        height: 3px;
+                        background-color: #FBB710;
+                        margin-bottom: 10px;
+                    }
+                    .cardPrice{
+                        span{
+                            color: #FBB710;
+                            font-size: 24px;
+                            font-family: Arial, Helvetica, sans-serif;
+                        }
+                    }
+                }
+                .stars{
+                    display: flex;
+                    align-items: center;
+                    font-size: 9px;
+                    color: #FBB710;
+                    gap: 5px;
+                }
+            }
+            .photoInfoTwo{
+                display: flex;
+                justify-content: space-between;
+                a{
+                    font-size: 16px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    color: #242424;
+                }
+                i{
+                    color: #959595;
+                }
+            }
+        }
+        
+    }
+    .shopPages{
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 100px;
+        .shopPage{
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            a{
+                color: black;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 16px;
+            }
+        }
+        .one{
+            background-color: #FBB710;
+            a{
+                color: white;
+            }
+        }
+    }
+  }

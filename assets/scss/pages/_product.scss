@@ -1,0 +1,140 @@
+.product {
+  width: 100%;
+  margin-top: 150px;
+  margin-left: 50px;
+  .productPages {
+    margin-bottom: 30px;
+    margin-left: 20px;
+    a {
+      font-size: 14px;
+      color: black;
+      text-transform: uppercase;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 550;
+      span {
+        color: #212529;
+      }
+    }
+    .modernChair {
+      color: #6c657d;
+    }
+  }
+  .productRow {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    .productSlide {
+      img {
+        width: 626px;
+        height: 646px;
+      }
+      .productSlidePhotos{
+        display: flex;
+        gap: 10px;
+        
+        .slidePhotos{
+          img{
+            width: 150px;
+            height: 137px;
+          }
+        }
+      }
+    }
+    
+    .productRight {
+      width: 35%;
+      padding-top: 15px;
+      .productPrice {
+        .line {
+          width: 80px;
+          height: 3px;
+          background-color: #fbb710;
+          margin-bottom: 10px;
+        }
+        span {
+          color: #fbb710;
+          font-size: 24px;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        h2 {
+          margin-top: 10px;
+          margin-bottom: 10px;
+          a {
+            color: #242424;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+          }
+        }
+      }
+      .productRating {
+        display: flex;
+        justify-content: space-between;
+        .stars {
+          i {
+            font-size: 9px;
+            color: #fbb710;
+            padding-bottom: 20px;
+          }
+          p {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+          }
+        }
+        .writeReview {
+          p {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+          }
+        }
+      }
+      .productInfo {
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #6b6b6b;
+        line-height: 35px;
+        margin-top: 50px;
+      }
+      .productQty {
+        .quanityButton {
+          margin-top: 50px;
+          width: 156px;
+          height: 40px;
+          display: flex;
+          text-align: center;
+          align-items: center;
+          justify-content: space-between;
+          span {
+            font-size: 16px;
+            padding: 0 15px;
+            color: #6c657d;
+          }
+          input {
+            width: 50px;
+            height: 40px;
+            font-size: 16px;
+            border: none;
+            background-color: #f0f0f0;
+          }
+        }
+      }
+      .productButton{
+        button{
+          width: 305px;
+        height: 80px;
+        margin-top: 50px;
+        background-color: #FBB710;
+        &:hover{
+          background-color: #242424;
+        }
+        a{
+          color: white;
+          font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        
+        }
+        }
+      }
+    }
+  }
+}

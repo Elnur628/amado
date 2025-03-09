@@ -1,0 +1,115 @@
+.cartMain {
+  width: 100%;
+  margin-left: 100px;
+  display: flex;
+  .cartTable {
+    margin-top: 150px;
+    margin-right: 30px;
+    
+    h2 {
+      font-size: 30px;
+      font-weight: 550;
+      margin-bottom: 35px;
+      color: #242424;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    table {
+        border-collapse: collapse;
+      .cartTableBar {
+        .cartTableList {
+          background-color: #f5f7fa;
+          th {
+            font-size: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 180px;
+            height: 30px;
+            padding: 12px;
+            text-align: inherit;
+          }
+        }
+      }
+      .cartTableAbout {
+        .cartTableInfo {
+          .productImg {
+            img {
+              width: 180px;
+              height: 180px;
+              padding: 12px;
+            }
+          }
+          .productName {
+            color: #252525;
+            font-size: 18px;
+            padding: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+          }
+          .productPrice {
+            color: #252525;
+            font-size: 16px;
+            padding: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+          }
+          .productQuanity{
+            .quanityButton{
+                margin-left: 20px;
+                width: 120px;
+                height: 40px;
+                padding: 12px;
+                font-size: 14px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 550;
+                color: #252525;
+                display: flex;
+                justify-content: space-between;
+                text-align: center;
+                align-items: center;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .cartTotal {
+    margin-top: 220px;
+    width: 345px;
+    height: 380px;
+    background-color: #f5f7fa;
+    h5 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+      color: #242424;
+    }
+    .rowTotal {
+      padding: 30px 20px;
+      .info {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #6b6b6c;
+        font-size: 14px;
+        height: 550;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30px;
+      }
+
+      .checkoutButton {
+        button {
+          width: 305px;
+          height: 50px;
+          margin-top: 110px;
+          background-color: #fbb710;
+          &:hover {
+            background-color: #242424;
+          }
+          a {
+            color: white;
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+}

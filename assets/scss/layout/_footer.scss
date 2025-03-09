@@ -1,0 +1,120 @@
+.footer {
+
+  .subscribe {
+    .containerSubscribe {
+      .rowSubscribe {
+        padding-left: 13%;
+        padding-right: 15%;
+        padding-top: 90px;
+        background-color: #3c3c3c;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+  
+        .subscribeInfo {
+          width: 60%;
+          height: 220px;
+          line-height: 80px;
+          color: #fff;
+          h2 {
+            font-size: 36px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 500;
+            span {
+              color: #fbb710;
+            }
+          }
+          p {
+            color: #b3b1b1;
+            font-size: 16px;
+            line-height: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+          }
+        }
+        .subscribeMail {
+          width: 30%;
+          display: flex;
+          align-items: center;
+              justify-content: center;
+              
+              padding-bottom: 5%;
+          .subscribeForm {
+              display: flex;
+            .email {
+              width: 320px;
+              height: 50px;
+              font-style: italic;
+              padding-left: 30px;
+              color: #afafaf;
+              font-weight: 550;
+              font-size: 14px;
+            }
+            .subscribeButton{
+              width: 135px;
+              height: 50px;
+              background-color: #fbb710;
+              color: #fff;
+              font-size: 14px;
+              font-weight: 600;
+              padding: 0 30px;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+
+  background-color: #252525;
+
+  .container {
+    padding-left: 13%;
+    padding-top: 5%;
+    padding-bottom: 12%;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    .footerLogo {
+      width: 30%;
+      p {
+        color: #ffffff66;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 330px;
+        font-size: 11px;
+        margin-top: 10px;
+        line-height: 20px;
+        font-weight: 550;
+        a {
+          color: #ffffff66;
+          font-weight: 550;
+        }
+      }
+    }
+    .footerPages {
+      width: 90%;
+      padding-top: 50px;
+      .navBarFooter {
+        .navListFooter {
+          display: flex;
+          gap: 60px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          .navItemFooter {
+            :hover{
+              color: #FBB710;
+            }
+            a {
+              color: white;
+              font-family: Arial, Helvetica, sans-serif;
+              text-transform: uppercase;
+              span{
+                color: #FBB710;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
